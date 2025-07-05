@@ -3,88 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hany Mahrous - Backend Developer</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Coming Soon - Hany Mahrous</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f2f4f8;
+      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #666;
+    }
+
+    .social-icons a {
+      color: #444;
+      font-size: 1.5rem;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #0077cc;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>Hany Mahrous</h1>
-      <p>Backend Developer</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <h1>Coming Soon</h1>
+  <p>Hany Mahrous – Backend Developer</p>
 
-  <!-- About Section -->
-  <section id="about" data-aos="fade-up">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I am a backend developer with a passion for building scalable and secure applications using modern technologies like Node.js, Laravel, and PostgreSQL.</p>
-    </div>
-  </section>
+  <div class="social-icons">
+    <a href="mailto:hany@example.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/hanymahrous" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/hanymahrous" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
 
-  <!-- Projects Section -->
-  <section id="projects" data-aos="fade-up">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects-grid">
+  <footer>&copy; 2025 Hany Mahrous. All rights reserved.</footer>
 
-        <div class="project-card">
-          <img src="https://source.unsplash.com/400x250/?code,api" alt="Project 1">
-          <h3>API Auth System</h3>
-          <p>Authentication & Authorization system using JWT and Node.js</p>
-          <a href="https://github.com/hanymahrous/project1" target="_blank">View on GitHub</a>
-        </div>
-
-        <div class="project-card">
-          <img src="https://source.unsplash.com/400x250/?dashboard,web" alt="Project 2">
-          <h3>Admin Dashboard</h3>
-          <p>Responsive dashboard built with Laravel + Vue.js</p>
-          <a href="https://github.com/hanymahrous/project2" target="_blank">View on GitHub</a>
-        </div>
-
-        <div class="project-card">
-          <img src="https://source.unsplash.com/400x250/?server,database" alt="Project 3">
-          <h3>Database Monitor</h3>
-          <p>Tool to monitor PostgreSQL performance in real-time</p>
-          <a href="https://github.com/hanymahrous/project3" target="_blank">View on GitHub</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" data-aos="fade-up">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Feel free to reach out via email or LinkedIn!</p>
-      <div class="contact-icons">
-        <a href="mailto:hany@example.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://linkedin.com/in/hanymahrous" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/hanymahrous" target="_blank"><i class="fab fa-github"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Hany Mahrous. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 </html>
